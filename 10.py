@@ -6,10 +6,10 @@ Created on Sat Jun  5 09:52:54 2021
 """
 
 
-from mcpi.minecraft import minecraft 
+from mcpi.minecraft import Minecraft 
 from time import sleep
 import random
-mc=minecraft.create()
+mc=Minecraft.create()
 x,y,z=mc.player.getTilePos()
 
 for i in range(20):

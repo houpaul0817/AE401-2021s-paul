@@ -1,6 +1,6 @@
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-while ture
+while True:
 x, y, z = mc.player.getTilePos()
 
 a = getBlock(x, y-1, z)

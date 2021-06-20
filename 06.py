@@ -9,7 +9,7 @@ from mcpi.minecraft import Minecraft
 import time
 mc= Minecraft.create()
 
-pos=mc.player.getTlePos()
+posmc.setBlock(x+i+e,y-1,z+i,164)
 while True:
     x=pos.x +　random.uniform(20,-20)
     z=pos.z　+random.uniform(20,-20)

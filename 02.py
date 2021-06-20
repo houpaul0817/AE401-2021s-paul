@@ -24,4 +24,4 @@ import time
 while True:
     x, y, z = mc.player.getTilePos()
     mc.postToChat("you are located at" + str(x) + ", " + str(y) + ", " + str(z))
-    time.sleep(0.5)
+    time.sleep(0.5)    
