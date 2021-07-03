@@ -46,6 +46,7 @@ while True:
              mc.postToChat("恭喜>///<")
              mc.setBlocks(hit.pos,56)
              break
+Binarysearch(5000)
     
     
     
